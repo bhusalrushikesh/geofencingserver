@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:paddingTop="500dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:id="@+id/btnSignUp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/button_round"
+            android:shadowColor="@color/black"
+
+
+            />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--------------- or ---------------"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:text="Sign IN"
+            android:textColor="@color/white"
+            android:id="@+id/btnSignIn"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+
+            android:background="@drawable/button_round"
+            android:shadowColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               By continuing, you agree to our
+\n Terms of Service  Privacy Policy  Content Policy"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

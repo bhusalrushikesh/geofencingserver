@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "490599077723",
+    "firebase_url": "https://myrestuarant-1bb66-default-rtdb.firebaseio.com",
+    "project_id": "myrestuarant-1bb66",
+    "storage_bucket": "myrestuarant-1bb66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490599077723:android:2234f30fc260bde0e36c7e",
+        "android_client_info": {
+          "package_name": "com.example.myrestuarant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490599077723-k7t1akkk4q621v1mfdpsbhh18cjsfred.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKG4eFQ9VhRdC2UIesf9HLhBEaPSdD10E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490599077723-k7t1akkk4q621v1mfdpsbhh18cjsfred.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490599077723:android:1bf13a31a45c819ae36c7e",
+        "android_client_info": {
+          "package_name": "com.example.myrestuarantserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490599077723-8ea41o4ilv91jhf35dkte1eifm7up0vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myrestuarantserver",
+            "certificate_hash": "d0c6c896073d16435378a6cff0bc13919d7d11c8"
+          }
+        },
+        {
+          "client_id": "490599077723-k7t1akkk4q621v1mfdpsbhh18cjsfred.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKG4eFQ9VhRdC2UIesf9HLhBEaPSdD10E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490599077723-k7t1akkk4q621v1mfdpsbhh18cjsfred.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
